@@ -1,10 +1,10 @@
 Script started on Monday 04 February 2019 10:13:43 PM IST
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls
-abc  ceccs17d19.04.02.19  def  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  examples.desktop  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  qwe  [01;34mTemplates[0m  [01;34mVideos[0m
+abc  ceccs17d30.04.02.19  def  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  examples.desktop  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  qwe  [01;34mTemplates[0m  [01;34mVideos[0m
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -l
 total 56
 -rw-rw-r-- 1 s4d1 s4d1    6 Feb  4 21:47 abc
--rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 22:13 ceccs17d19.04.02.19
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 22:13 ceccs17d30.04.02.19
 -rw-rw-r-- 1 s4d1 s4d1    6 Feb  4 21:55 def
 drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 21:29 [0m[01;34mDesktop[0m
 drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 21:29 [01;34mDocuments[0m
@@ -18,7 +18,7 @@ drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 21:29 [01;34mTemplates[0m
 drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 21:29 [01;34mVideos[0m
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ ls -lt
 total 56
--rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 22:13 ceccs17d19.04.02.19
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 22:13 ceccs17d30.04.02.19
 -rw-rw-r-- 1 s4d1 s4d1   10 Feb  4 22:04 qwe
 -rw-rw-r-- 1 s4d1 s4d1    6 Feb  4 21:55 def
 -rw-rw-r-- 1 s4d1 s4d1    6 Feb  4 21:47 abc
@@ -45,7 +45,7 @@ drwxr-xr-x 2 s4d1 s4d1 4096 Feb  4 21:29 [01;34mDesktop[0m
 -rw-rw-r-- 1 s4d1 s4d1    6 Feb  4 21:47 abc
 -rw-rw-r-- 1 s4d1 s4d1    6 Feb  4 21:55 def
 -rw-rw-r-- 1 s4d1 s4d1   10 Feb  4 22:04 qwe
--rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 22:13 ceccs17d19.04.02.19
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb  4 22:13 ceccs17d30.04.02.19
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ alias 1[Kl=ls
 ]0;s4d1@cec-H110M-S2: ~[01;32ms4d1@cec-H110M-S2[00m:[01;34m~[00m$ l
 abc  ceccs17d19.04.02.19  def  [0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  examples.desktop  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  qwe  [01;34mTemplates[0m  [01;34mVideos[0m
