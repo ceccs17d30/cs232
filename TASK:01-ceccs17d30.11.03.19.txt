@@ -748,6 +748,7 @@ CHN17CS120	3.8125
    59.     476/17   LCHN17CS122    AMRUTHA S
    60.     469/17   LCHN17CS124    JACOB MATHEW
    61.     480/17   LCHN17CS121    AISWARYA J
+   62.     475/17   LCHN17CS123    HARIKRISHNAN 
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ cat>csd.txt
    1.      411/17   CHN17CS004     ABIN THOMAS
    2.      412/17   CHN17CS006     ADERSH A
@@ -874,6 +875,7 @@ CHN17CS120	3.8125
    59.     476/17   LCHN17CS122    AMRUTHA S
    60.     469/17   LCHN17CS124    JACOB MATHEW
    61.     480/17   LCHN17CS121    AISWARYA J
+   62.     475/17   LCHN17CS123    HARIKRISHNAN 
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ 
 [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ awk 'NR==FNR{SEEN[[K[K[K[K[Kseen[$3]=1;next}seen[$1]==1{seen[$s2[K[K~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kawk 'NR==FNR{seen[$3]=1;next}seen[$1]==1{seen[$2]++;print$2}' csd. 
 txt details.txt> final.txt
