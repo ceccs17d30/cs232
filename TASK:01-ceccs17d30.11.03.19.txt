@@ -874,7 +874,9 @@ CHN17CS120	3.8125
    59.     476/17   LCHN17CS122    AMRUTHA S
    60.     469/17   LCHN17CS124    JACOB MATHEW
    61.     480/17   LCHN17CS121    AISWARYA J
-]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ awk 'NR==FNR{SEEN[[K[K[K[K[Kseen[$3]=1;next}seen[$1]==1{seen[$s2[K[K~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kawk 'NR==FNR{seen[$3]=1;next}seen[$1]==1{seen[$2]++;print$2}' csd. txt details.txt> final.txt
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ 
+[K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ awk 'NR==FNR{SEEN[[K[K[K[K[Kseen[$3]=1;next}seen[$1]==1{seen[$s2[K[K~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kawk 'NR==FNR{seen[$3]=1;next}seen[$1]==1{seen[$2]++;print$2}' csd. 
+txt details.txt> final.txt
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ cat final.txt
 7.4375
 7.5
@@ -934,7 +936,9 @@ CHN17CS120	3.8125
 7.9375
 8.25
 5.375
-]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ paste csd.txt [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ paste csd.txt final.txt
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ 
+[K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ paste csd.txt 
+[K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ paste csd.txt final.txt
    1.      411/17   CHN17CS004     ABIN THOMAS	7.4375
    2.      412/17   CHN17CS006     ADERSH A	7.5
    3.      347/17   CHN17CS013     ALEN ANTO ABRAHAM	6.9375
@@ -1120,7 +1124,8 @@ CHN17CS120	3.8125
    58.     404/17   CHN17CS119     VYSHAKH R	5.375
    59.     476/17   LCHN17CS122    AMRUTHA S	
    60.     469/17   LCHN17CS124    JACOB MATHEW	
-]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ 
+[K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
 exit
 There are stopped jobs.
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
