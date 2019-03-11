@@ -1129,7 +1129,7 @@ txt details.txt> final.txt
    59.     476/17   LCHN17CS122    AMRUTHA S	
    60.     469/17   LCHN17CS124    JACOB MATHEW	
    61.     480/17   LCHN17CS121    AISWARYA J
-   62.     475/17   LCHN17CS123    HARIKRISHNAN ^Z
+   62.     475/17   LCHN17CS123    HARIKRISHNAN 
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ 
 [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
 exit
