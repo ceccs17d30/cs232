@@ -1000,6 +1000,7 @@ txt details.txt> final.txt
    59.     476/17   LCHN17CS122    AMRUTHA S	
    60.     469/17   LCHN17CS124    JACOB MATHEW	
    61.     480/17   LCHN17CS121    AISWARYA J	
+   62.     475/17   LCHN17CS123    HARIKRISHNAN
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ cat[K[K[Kcat>s1result.ty[Kxt
    1.      411/17   CHN17CS004     ABIN THOMAS	7.4375
    2.      412/17   CHN17CS006     ADERSH A	7.5
@@ -1061,7 +1062,8 @@ txt details.txt> final.txt
    58.     404/17   CHN17CS119     VYSHAKH R	5.375
    59.     476/17   LCHN17CS122    AMRUTHA S	
    60.     469/17   LCHN17CS124    JACOB MATHEW	
-   61.     480/17   LCHN17CS121    AISWARYA J	^Z
+   61.     480/17   LCHN17CS121    AISWARYA J
+   62.     475/17   LCHN17CS123    HARIKRISHNAN ^Z
 [4]+  Stopped                 cat > s1result.txt
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ cat s1result.txt
    1.      411/17   CHN17CS004     ABIN THOMAS	7.4375
@@ -1124,6 +1126,8 @@ txt details.txt> final.txt
    58.     404/17   CHN17CS119     VYSHAKH R	5.375
    59.     476/17   LCHN17CS122    AMRUTHA S	
    60.     469/17   LCHN17CS124    JACOB MATHEW	
+   61.     480/17   LCHN17CS121    AISWARYA J
+   62.     475/17   LCHN17CS123    HARIKRISHNAN ^Z
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ 
 [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
 exit
