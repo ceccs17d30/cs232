@@ -11,7 +11,9 @@ sftp> ls
 examples.desktop    
 sftp> put s1result.txt
 Uploading s1result.txt to /home/cs17d30/s1result.txt
-s1result.txt                                    0%    0     0.0KB/s   --:-- ETAs1result.txt                                  100% 3341     3.3KB/s   00:00    
+
+s1result.txt                                    0%    0     0.0KB/s   --:-- ETA
+s1result.txt                                  100% 3341     3.3KB/s   00:00    
 sftp> ls
 examples.desktop    s1result.txt        
 sftp> mkdir test
@@ -20,9 +22,11 @@ examples.desktop    s1result.txt        test
 sftp> cd test
 sftp> ls
 sftp> cat >test[K[K[K[Ksample.txt
-Invalid command.
+Invalid command.
+
 sftp> cat>sample.txt
-Invalid command.
+Invalid command.
+
 sftp> cd ..
 sftp> ls
 examples.desktop    s1result.txt        test                
@@ -40,7 +44,9 @@ sftp> ge[K[Kls
 examples.desktop    s1result.txt        test                
 sftp> get s1result.txt
 Fetching /home/cs17d30/s1result.txt to s1result.txt
-/home/cs17d30/s1result.txt                      0%    0     0.0KB/s   --:-- ETA/home/cs17d30/s1result.txt                    100% 3341     3.3KB/s   00:00    
+
+/home/cs17d30/s1result.txt                      0%    0     0.0KB/s   --:-- ETA
+/home/cs17d30/s1result.txt                    100% 3341     3.3KB/s   00:00    
 sftp> version
 SFTP protocol version 3
 sftp> help
