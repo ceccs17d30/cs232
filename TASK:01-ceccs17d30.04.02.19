@@ -137,7 +137,8 @@ SIOCSIFFLAGS: Operation not permitted
 1	Deepak
 2	Johan
 3	Ashish
-]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ 
+[K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
 exit
 There are stopped jobs.
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
