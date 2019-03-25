@@ -1,0 +1,83 @@
+Script started on Monday 25 March 2019 09:25:37 AM IST
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ sftp cs17d30@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d30@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    
+sftp> put s1result.txt
+Uploading s1result.txt to /home/cs17d30/s1result.txt
+s1result.txt                                    0%    0     0.0KB/s   --:-- ETAs1result.txt                                  100% 3341     3.3KB/s   00:00    
+sftp> ls
+examples.desktop    s1result.txt        
+sftp> mkdir test
+sftp> ls
+examples.desktop    s1result.txt        test                
+sftp> cd test
+sftp> ls
+sftp> cat >test[K[K[K[Ksample.txt
+Invalid command.
+sftp> cat>sample.txt
+Invalid command.
+sftp> cd ..
+sftp> ls
+examples.desktop    s1result.txt        test                
+sftp> lls
+abc			 cgpa.txt     examples.desktop	reg.txt
+cd			 cs	      file1		result_CHN.txt
+ceccs17d30.04.02.19	 csd.txt      file2		s1result.txt
+ceccs17d30.11.02.19	 cs.txt       file3		Templates
+ceccs17d30.11.03.19.txt  cs.txt~      final.txt		Videos
+ceccs17d30.12.03.19	 Desktop      Music		we
+ceccs17d30.25.02.19	 details.txt  Pictures
+ceccs17d30.25.02.19.txt  Documents    Public
+ceccs17d30.25.03.19.txt  Downloads    r.19
+sftp> ge[K[Kls
+examples.desktop    s1result.txt        test                
+sftp> get s1result.txt
+Fetching /home/cs17d30/s1result.txt to s1result.txt
+/home/cs17d30/s1result.txt                      0%    0     0.0KB/s   --:-- ETA/home/cs17d30/s1result.txt                    100% 3341     3.3KB/s   00:00    
+sftp> version
+SFTP protocol version 3
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-Ppr] remote [local]          Download file
+reget remote [local]		Resume download file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln [-s] oldpath newpath            Link remote file (-s for symlink)
+lpwd                               Print local working directory
+ls [-1afhlnrSt] [path]             Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-Ppr] local [remote]          Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+sftp> exit
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
+exit
+
+Script done on Monday 25 March 2019 09:38:09 AM IST
