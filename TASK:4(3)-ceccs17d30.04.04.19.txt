@@ -1,5 +1,6 @@
 Script started on Thursday 04 April 2019 10:59:20 AM IST
-]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ rsync -zvh cs17d30@192.168.0.30:/home/cs17d30/final.txt /home/s4d1 /Desktp[Koip[K[Kp
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ rsync -zvh cs17d30@192.168.0.30:/home/cs17d30/final.txt /home/s4d1 
+/Desktp[Koip[K[Kp
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
