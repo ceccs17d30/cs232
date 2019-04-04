@@ -21,7 +21,9 @@ cs.txt                   [01;34mPictures[0m
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d30@192.168.0.30's password: 
-final.txt                                       0%    0     0.0KB/s   --:-- ETAfinal.txt                                     100%  336     0.3KB/s   00:00    
+
+final.txt                                       0%    0     0.0KB/s   --:-- ETA
+final.txt                                     100%  336     0.3KB/s   00:00    
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ sftp cs17d30@192.168.0.30
 .
               |
@@ -34,14 +36,17 @@ sftp> ls
 examples.desktop    file1.txt           file2.txt           final.txt           
 final_cgpa.txt      s1result.txt        test                
 sftp> exit
-]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ scp [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ scp cs17d30@192.168.0.30:/home/cs17d30/file2.;txt[K[K[K[K[K.txt /home/s4d1
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ scp 
+[K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ scp cs17d30@192.168.0.30:/home/cs17d30/file2.;txt[K[K[K[K[K.txt /home/s4d1
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d30@192.168.0.30's password: 
-file2.txt                                                                 0%    0     0.0KB/s   --:-- ETAfile2.txt                                                               100%    6     0.0KB/s   00:00    
+
+file2.txt                                                                 0%    0     0.0KB/s   --:-- ETA
+file2.txt                                                               100%    6     0.0KB/s   00:00    
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ ls
 abc                      cs                file2           s1result.txt
 cd                       csd.txt           file2.txt       TASK:04-ceccs17d30.25.03.19.txt
