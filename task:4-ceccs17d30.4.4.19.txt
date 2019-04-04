@@ -1,0 +1,37 @@
+Script started on Thursday 04 April 2019 10:59:20 AM IST
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ rsync -zvh cs17d30@192.168.0.30:/home/cs17d30/final.txt /home/s4d1 /Desktp[Koip[K[Kp
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d30@192.168.0.30's password: 
+final.txt
+
+sent 43 bytes  received 204 bytes  54.89 bytes/sec
+total size is 336  speedup is 1.36
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ rsu[Kync -zvh reg.txt cs17d30@192.1680[K.0.30:/home/cs17d30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d30@192.168.0.30's password: 
+reg.txt
+
+sent 314 bytes  received 35 bytes  99.71 bytes/sec
+total size is 1.33K  speedup is 3.80
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ sftp cs17d30@192.168.3[K0.3.[K0
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d30@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    file1.txt           file2.txt           final.txt           
+final_cgpa.txt      reg.txt             s1result.txt        test                
+sftp> exit
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
+Script done on Thursday 04 April 2019 11:04:14 AM IST
