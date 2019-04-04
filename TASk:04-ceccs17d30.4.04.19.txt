@@ -1,0 +1,60 @@
+Script started on Thursday 04 April 2019 10:10:46 AM IST
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ ls
+abc                      cs.txt~           [0m[01;34mPublic[0m
+cd                       [01;34mDesktop[0m           r.19
+ceccs17d30.04.02.19      details.txt       reg.txt
+ceccs17d30.11.02.19      [01;34mDocuments[0m         result_CHN.txt
+ceccs17d30.11.03.19.txt  [01;34mDownloads[0m         s1result.txt
+ceccs17d30.12.03.19      examples.desktop  TASK:04-ceccs17d30.25.03.19.txt
+ceccs17d30.25.02.19      file1             TASk:04-ceccs17d30.4.04.19.txt
+ceccs17d30.25.02.19.txt  file1.txt         Task:04-ceccs17d30.4.4.19.txt
+ceccs17d30.25.03.19.txt  file2             TASK:05-ceccs17d30.25.03.19.txt
+ceccs17d30.4.4.19.txt    file3             task4.txt
+cgpa.txt                 final_cgpa.txt    [01;34mTemplates[0m
+cs                       final.txt         [01;34mVideos[0m
+csd.txt                  [01;34mMusic[0m             we
+cs.txt                   [01;34mPictures[0m
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ sco[Kp final.txt cs17d30@192.168.0.30:/home/cs17d30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d30@192.168.0.30's password: 
+final.txt                                       0%    0     0.0KB/s   --:-- ETAfinal.txt                                     100%  336     0.3KB/s   00:00    
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ sftp cs17d30@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d30@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    file1.txt           file2.txt           final.txt           
+final_cgpa.txt      s1result.txt        test                
+sftp> exit
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ scp [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ scp cs17d30@192.168.0.30:/home/cs17d30/file2.;txt[K[K[K[K[K.txt /home/s4d1
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d30@192.168.0.30's password: 
+file2.txt                                                                 0%    0     0.0KB/s   --:-- ETAfile2.txt                                                               100%    6     0.0KB/s   00:00    
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ ls
+abc                      cs                file2           s1result.txt
+cd                       csd.txt           file2.txt       TASK:04-ceccs17d30.25.03.19.txt
+ceccs17d30.04.02.19      cs.txt            file3           TASk:04-ceccs17d30.4.04.19.txt
+ceccs17d30.11.02.19      cs.txt~           final_cgpa.txt  Task:04-ceccs17d30.4.4.19.txt
+ceccs17d30.11.03.19.txt  [0m[01;34mDesktop[0m           final.txt       TASK:05-ceccs17d30.25.03.19.txt
+ceccs17d30.12.03.19      details.txt       [01;34mMusic[0m           task4.txt
+ceccs17d30.25.02.19      [01;34mDocuments[0m         [01;34mPictures[0m        [01;34mTemplates[0m
+ceccs17d30.25.02.19.txt  [01;34mDownloads[0m         [01;34mPublic[0m          [01;34mVideos[0m
+ceccs17d30.25.03.19.txt  examples.desktop  r.19            we
+ceccs17d30.4.4.19.txt    file1             reg.txt
+cgpa.txt                 file1.txt         result_CHN.txt
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
+exit
+
+Script done on Thursday 04 April 2019 10:33:21 AM IST
