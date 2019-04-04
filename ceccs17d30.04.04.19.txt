@@ -13,7 +13,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Thu Apr  4 09:17:41 2019 from 192.168.0.60
+Last login: Thu Apr  4 09:17:41 2019 from 192.168.0.60
+
 $ ls
 examples.desktop  file1.txt  final_cgpa.txt  s1result.txt  test
 $ cd test
@@ -43,7 +44,8 @@ hello
 $ exit
 You have stopped jobs.
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
 exit
 
