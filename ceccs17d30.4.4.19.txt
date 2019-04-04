@@ -1,0 +1,50 @@
+Script started on Thursday 04 April 2019 09:32:35 AM IST
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ ssh cs17d30@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d30@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Apr  4 09:17:41 2019 from 192.168.0.60
+$ ls
+examples.desktop  file1.txt  final_cgpa.txt  s1result.txt  test
+$ cd test
+$ ped  wd
+/home/cs17d30/test
+$ cd ..
+$ pes  wd
+/home/cs17d30
+$ mkdir file
+$ ls
+examples.desktop  file	file1.txt  final_cgpa.txt  s1result.txt  test
+$ rm -r file
+$ ls
+examples.desktop  file1.txt  final_cgpa.txt  s1result.txt  test
+$ rm file1.txt
+$ ls
+examples.desktop  final_cgpa.txt  s1result.txt	test
+$ cat>  >file1, .tcx  xt
+hello
+^Z[1] + Stopped                    cat 1>file1.txt
+$ touch file2.txt
+$ ls
+examples.desktop  file1.txt  file2.txt	final_cgpa.txt	s1result.txt  test
+$ cp -f file1.txt file2.txt
+$ cat file2.txt
+hello
+$ exit
+You have stopped jobs.
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ exit
+exit
+
+Script done on Thursday 04 April 2019 09:39:30 AM IST
