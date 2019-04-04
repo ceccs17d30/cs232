@@ -130,7 +130,8 @@ grep: result_CHN.txt: No such file or directory
 [01;31m[KCHN17CS[m[K118   MA101(B), PH100(A), BE100(A), BE10105(C), BE103(B+), EE100(B+), PH110(O), EE110(O),
 [01;31m[KCHN17CS[m[K119   MA101(F), PH100(C), BE100(F), BE10105(B), BE103(B), EE100(C), PH110(A+), EE110(B+),
 [01;31m[KCHN17CS[m[K120   MA101(F), PH100(F), BE100(F), BE10105(F), BE103(B+), EE100(C), PH110(A), EE110(B+),
-]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ [K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ cat>csd.txt
+]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ 
+[K]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ cat>csd.txt
 ^C
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ cat>cs.txt
 C ^C
