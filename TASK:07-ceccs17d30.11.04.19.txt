@@ -1,0 +1,75 @@
+Script started on Thursday 11 April 2019 10:46:47 AM IST
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo apt-get insatll[K[K[K[Ktall vsftpd
+[sudo] password for cec: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version.
+The following packages were automatically installed and are no longer required:
+  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libqpdf13
+  libsdl-image1.2 libsdl1.2debian libtar0 libupstart1 libva-x11-1
+  libxcb-composite0 libxcb-xv0 python-ntdb vlc-plugin-notify vlc-plugin-pulse
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 23 not upgraded.
+]0;cec@CLAB2: ~cec@CLAB2:~$ ftp localhosty[K 
+Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:cec): cec
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    2 1000     1000         4096 Mar 01 11:10 Desktop
+drwxr-xr-x    2 1000     1000         4096 Feb 08 16:49 Documents
+drwxr-xr-x    2 1000     1000         4096 Feb 25 16:11 Downloads
+-rw-rw-r--    1 1000     1000        18691 Mar 18 11:52 Lan.txt
+drwxr-xr-x    2 1000     1000         4096 Jan 30 18:25 Music
+drwxr-xr-x    2 1000     1000         4096 Apr 01 11:50 Pictures
+drwxr-xr-x    2 1000     1000         4096 Jan 30 18:25 Public
+-rw-rw-r--    1 1000     1000            0 Apr 11 10:46 TASK:07-ceccs17d30.11.04.19.txt
+drwxr-xr-x    2 1000     1000         4096 Jan 30 18:25 Templates
+drwxr-xr-x    2 1000     1000         4096 Jan 30 18:25 Videos
+-rwxrwxr-x    1 1000     1000         8931 Mar 15 11:55 a.out
+-rw-rw-r--    1 1000     1000          322 Apr 09 14:15 cclient.py
+-rw-rw-r--    1 1000     1000          322 Apr 09 14:14 cclient.py~
+-rw-rw-r--    1 1000     1000          443 Apr 01 14:17 client.py
+-rw-rw-r--    1 1000     1000          444 Apr 01 14:17 client.py~
+-rw-rw-r--    1 1000     1000          465 Apr 08 15:32 clienttime.py
+-rw-rw-r--    1 1000     1000          465 Apr 08 15:32 clienttime.py~
+-rwxrwxr-x    1 1000     1000         8929 Feb 15 17:32 employee
+-rw-rw-r--    1 1000     1000          815 Feb 15 15:30 employee.c
+-rw-rw-r--    1 1000     1000          812 Feb 15 15:29 employee.c~
+-rw-r--r--    1 1000     1000         8980 Jan 30 17:23 examples.desktop
+-rw-rw-r--    1 1000     1000          634 Mar 15 12:20 hps.c
+-rw-rw-r--    1 1000     1000          634 Mar 15 11:55 hps.c~
+-rw-rw-r--    1 1000     1000         2923 Apr 01 10:05 ifconfig
+-rw-rw-r--    1 1000     1000          618 Mar 15 11:39 ipc.c
+-rw-rw-r--    1 1000     1000          616 Mar 15 11:37 ipc.c~
+-rw-rw-r--    1 1000     1000          613 Mar 12 10:57 output1.txt
+-rw-rw-r--    1 1000     1000          378 Mar 12 11:15 output2.txt
+-rw-rw-r--    1 1000     1000        11019 Apr 08 09:40 package_management
+-rw-rw-r--    1 1000     1000          714 Apr 09 14:12 server.py
+-rw-rw-r--    1 1000     1000          714 Apr 01 14:15 server.py~
+-rw-rw-r--    1 1000     1000          414 Mar 01 11:37 sig.c
+-rw-rw-r--    1 1000     1000          405 Mar 01 11:35 sig.c~
+-rw-rw-r--    1 1000     1000          619 Apr 09 14:16 sserver.py
+-rw-rw-r--    1 1000     1000          619 Apr 09 14:14 sserver.py~
+drwxrwxr-x    2 1000     1000         4096 Apr 01 11:50 task_http
+-rw-rw-r--    1 1000     1000          769 Apr 08 15:32 time.py
+-rw-rw-r--    1 1000     1000          769 Apr 08 15:32 time.py~
+-rw-rw-r--    1 1000     1000          150 Apr 01 09:38 typescript
+226 Directory send OK.
+ftp> cd Desktop
+250 Directory successfully changed.
+ftp> pwd
+257 "/home/cec/Desktop"
+ftp> exo[Kit
+221 Goodbye.
+]0;cec@CLAB2: ~cec@CLAB2:~$ exit
+exit
+
+Script done on Thursday 11 April 2019 10:48:08 AM IST
