@@ -1,0 +1,37 @@
+Script started on Thursday 11 April 2019 11:32:22 AM IST
+]0;cec@CLAB2: ~cec@CLAB2:~$ sudo apt get- get[C[C[1Pget[C[C[C install perl
+[sudo] password for cec: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+perl is already the newest version.
+The following packages were automatically installed and are no longer required:
+  account-plugin-windows-live libdbusmenu-gtk4 libntdb1 libqpdf13
+  libsdl-image1.2 libsdl1.2debian libtar0 libupstart1 libva-x11-1
+  libxcb-composite0 libxcb-xv0 python-ntdb vlc-plugin-notify vlc-plugin-pulse
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 23 not upgraded.
+]0;cec@CLAB2: ~cec@CLAB2:~$ perl -v
+
+This is perl 5, version 18, subversion 2 (v5.18.2) built for x86_64-linux-gnu-thread-multi
+(with 55 registered patches, see perl -V for more detail)
+
+Copyright 1987-2013, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+]0;cec@CLAB2: ~cec@CLAB2:~$ perl product.pl
+welcome 
+Enter two numbers 
+5
+2
+Product is = 10
+]0;cec@CLAB2: ~cec@CLAB2:~$ exit
+exit
+
+Script done on Thursday 11 April 2019 11:33:32 AM IST
