@@ -11,7 +11,8 @@ sftp> ls
 examples.desktop    file1.txt           file2.txt           s1result.txt        
 test                
 sftp> cs17d3-0[K[K0@192.168[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kput final_cgpa.tzx[K[Kxt
-stat final_cgpa.txt: No such file or directory
+stat final_cgpa.txt: No such file or directory
+
 sftp> c[Kexit
 ]0;s4d1@CLAB2: ~s4d1@CLAB2:~$ pwd
 /home/s4d1
@@ -50,16 +51,21 @@ csd.txt                  final.txt         we
 cs17d30@192.168.0.30's password: 
 Connected to 192.168.0.30.
 sftp> put final-cgpa,[K.txt
-stat final-cgpa.txt: No such file or directory
+stat final-cgpa.txt: No such file or directory
+
 sftp> put final_cgpa.txt
 Uploading final_cgpa.txt to /home/cs17d30/final_cgpa.txt
-final_cgpa.txt                                  0%    0     0.0KB/s   --:-- ETAfinal_cgpa.txt                                100% 1151     1.1KB/s   00:00    
+
+final_cgpa.txt                                  0%    0     0.0KB/s   --:-- ETA
+final_cgpa.txt                                100% 1151     1.1KB/s   00:00    
 sftp> get[K[K[Kld[Ks
 examples.desktop    file1.txt           file2.txt           final_cgpa.txt      
 s1result.txt        test                
 sftp> get file1.txt
 Fetching /home/cs17d30/file1.txt to file1.txt
-/home/cs17d30/file1.txt                         0%    0     0.0KB/s   --:-- ETA/home/cs17d30/file1.txt                       100%   11     0.0KB/s   00:00    
+
+/home/cs17d30/file1.txt                         0%    0     0.0KB/s   --:-- ETA
+/home/cs17d30/file1.txt                       100%   11     0.0KB/s   00:00    
 sftp> lls
 abc			 cs.txt~	   Pictures
 cd			 Desktop	   Public
