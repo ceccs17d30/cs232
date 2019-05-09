@@ -1,0 +1,94 @@
+Script started on Thursday 11 April 2019 11:45:48 AM IST
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:19:af  
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:286920 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:43634 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:106627934 (106.6 MB)  TX bytes:5849853 (5.8 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:336 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:336 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:25446 (25.4 KB)  TX bytes:25446 (25.4 KB)
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifconfig enp1s0
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:19:af  
+          inet6 addr: fe80::9903:5272:2359:a048/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:286932 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:43688 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:106631568 (106.6 MB)  TX bytes:5861597 (5.8 MB)
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ ifconfig enp1s0 192.168.25.2
+SIOCSIFADDR: Operation not permitted
+SIOCSIFFLAGS: Operation not permitted
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo su
+[sudo] password for cec: 
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# ping 192.168.25.24[9Pifconfig enp1s0 netmask 255.255.255.224 192.168.25.3 netmask 255.255.255.244
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.25.4[Kifconfig enp1s0 192.168.25.3 netmask 255.255.255.244[12Pnetmask 255.255.255.224 192.168.25.3 netmask 255.255.255.244
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.25.4[Kifconfig enp1s0 192.168.25.3[K2
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# ping 192.168.25.3
+PING 192.168.25.3 (192.168.25.3) 56(84) bytes of data.
+64 bytes from 192.168.25.3: icmp_seq=1 ttl=64 time=0.439 ms
+64 bytes from 192.168.25.3: icmp_seq=2 ttl=64 time=0.269 ms
+64 bytes from 192.168.25.3: icmp_seq=3 ttl=64 time=0.591 ms
+64 bytes from 192.168.25.3: icmp_seq=4 ttl=64 time=0.590 ms
+64 bytes from 192.168.25.3: icmp_seq=5 ttl=64 time=0.274 ms
+64 bytes from 192.168.25.3: icmp_seq=6 ttl=64 time=0.307 ms
+64 bytes from 192.168.25.3: icmp_seq=7 ttl=64 time=0.595 ms
+64 bytes from 192.168.25.3: icmp_seq=8 ttl=64 time=0.303 ms
+64 bytes from 192.168.25.3: icmp_seq=9 ttl=64 time=0.393 ms
+64 bytes from 192.168.25.3: icmp_seq=10 ttl=64 time=0.583 ms
+64 bytes from 192.168.25.3: icmp_seq=11 ttl=64 time=0.301 ms
+^Z
+[1]+  Stopped                 ping 192.168.25.3
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# i[Kping 192.168.25.3ifconfig enp1s0 192.168.25.2
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# ping [K[K[K[K[Kifconfig enp1s0 192.168.25.2[11Pping 192.168.25.3
+PING 192.168.25.3 (192.168.25.3) 56(84) bytes of data.
+From 192.168.25.2 icmp_seq=3 Destination Host Unreachable
+From 192.168.25.2 icmp_seq=4 Destination Host Unreachable
+From 192.168.25.2 icmp_seq=5 Destination Host Unreachable
+From 192.168.25.2 icmp_seq=6 Destination Host Unreachable
+From 192.168.25.2 icmp_seq=7 Destination Host Unreachable
+From 192.168.25.2 icmp_seq=8 Destination Host Unreachable
+From 192.168.25.2 icmp_seq=9 Destination Host Unreachable
+From 192.168.25.2 icmp_seq=10 Destination Host Unreachable
+From 192.168.25.2 icmp_seq=11 Destination Host Unreachable
+
+^Z
+[2]+  Stopped                 ping 192.168.25.3
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# sftp root@192.15[K68.25.3
+ssh: connect to host 192.168.25.3 port 22: No route to host
+
+Couldn't read packet: Connection reset by peer
+
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# sftp root@192.168.25.3[5Pping 192.168.25.3ifconfig enp1s0 192.168.25.2[C
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# ifconfig enp1s0 192.168.25.2[6Psftp root@192.168.25.3[5Pping 192.168.25.3
+PING 192.168.25.3 (192.168.25.3) 56(84) bytes of data.
+64 bytes from 192.168.25.3: icmp_seq=1 ttl=64 time=0.185 ms
+64 bytes from 192.168.25.3: icmp_seq=2 ttl=64 time=0.195 ms
+64 bytes from 192.168.25.3: icmp_seq=3 ttl=64 time=0.303 ms
+64 bytes from 192.168.25.3: icmp_seq=4 ttl=64 time=0.510 ms
+^Z
+[3]+  Stopped                 ping 192.168.25.3
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# ping 192.168.25.3ifconfig enp1s0 192.168.25.2[6Psftp root@192.168.25.3
+ssh: connect to host 192.168.25.3 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# sftp root@192.168.25.3[5Pping 192.168.25.3ifconfig enp1s0 192.168.25.2
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# exit
+exit
+There are stopped jobs.
+]0;root@cec-H110M-S2: /home/cecroot@cec-H110M-S2:/home/cec# exit
+exit
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 12:03:20 PM IST
