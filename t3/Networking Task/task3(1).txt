@@ -1,5 +1,9 @@
 Script started on Thursday 11 April 2019 11:52:15 AM IST
-]0;cec@CLAB2: ~cec@CLAB2:~$ exitscript task-08-ceccs17d30.11.04.19.txt[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kperl product.pl-v[Ksudo apt-get install perl[C[C[C[C[C[C[C[C[C[C[C[C[Cperl -v[Kproduct.pl[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscript task-08-ceccs17d30.11.04.19.txt[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[Kifconfig
+]0;cec@CLAB2: ~cec@CLAB2:~$ exitscript task-08-ceccs17d30.11.04.19.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kperl product.pl-v[Ksudo apt-get install perl
+[C[C[C[C[C[C[C[C[C[C[C[C[Cperl -v[Kproduct.pl
+[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscript task-08-ceccs17d30.11.04.19.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[Kifconfig
 eth0      Link encap:Ethernet  HWaddr e0:d5:5e:03:e8:35  
           inet6 addr: fe80::e2d5:5eff:fe03:e835/64 Scope:Link
           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
@@ -39,7 +43,8 @@ PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
 ]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# ping 192.168.25.2
 connect: Network is unreachable
 ]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# ping 192.168.25.2ifconfig eth0 192.168.25.3
-]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# ifconfig eth0 192.168.25.3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pping 192.168.25.2
+]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# ifconfig eth0 192.168.25.3
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pping 192.168.25.2
 PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
 64 bytes from 192.168.25.2: icmp_seq=1 ttl=64 time=0.646 ms
 64 bytes from 192.168.25.2: icmp_seq=2 ttl=64 time=0.414 ms
@@ -55,22 +60,31 @@ ping: sendmsg: Network is unreachable
 ^Z
 [2]+  Stopped                 ping 192.168.25.2
 ]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# sftp root@192.168.25.3[K2
-ssh: connect to host 192.168.25.2 port 22: Network is unreachable
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.2 port 22: Network is unreachable
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# sftp root@192.168.25.2[5Pping 192.168.25.2ifconfig eth0 192.168.25.3
-]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# ifconfig eth0 192.168.25.3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kifconfig eth0 192.168.25.3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Psftp root@192.168.25.2[5Pping 192.168.25.2
+]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# ifconfig eth0 192.168.25.3
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kifconfig eth0 192.168.25.3
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Psftp root@192.168.25.2[5Pping 192.168.25.2
 PING 192.168.25.2 (192.168.25.2) 56(84) bytes of data.
 64 bytes from 192.168.25.2: icmp_seq=1 ttl=64 time=0.670 ms
 64 bytes from 192.168.25.2: icmp_seq=2 ttl=64 time=0.417 ms
 64 bytes from 192.168.25.2: icmp_seq=3 ttl=64 time=0.415 ms
 ^Z
 [3]+  Stopped                 ping 192.168.25.2
-]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# ping 192.168.25.2[Kping 192.168.25.2ifconfig eth0 192.168.25.3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Psftp root@192.168.25.2[5Pping 192.168.25.2sftp root@192.168.25.2
-ssh: connect to host 192.168.25.2 port 22: Connection refused
-Couldn't read packet: Connection reset by peer
+]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# ping 192.168.25.2[Kping 192.168.25.2ifconfig eth0 192.168.25.3
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Psftp root@192.168.25.2[5Pping 192.168.25.2sftp root@192.168.25.2
+ssh: connect to host 192.168.25.2 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# sftp root@192.168.25.2
-ssh: connect to host 192.168.25.2 port 22: Connection refused
-Couldn't read packet: Connection reset by peer
+ssh: connect to host 192.168.25.2 port 22: Connection refused
+
+Couldn't read packet: Connection reset by peer
+
 ]0;root@CLAB2: /home/cecroot@CLAB2:/home/cec# exit
 exit
 There are stopped jobs.
